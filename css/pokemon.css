@@ -1,0 +1,53 @@
+p:before{
+    content: attr(type);
+}
+
+.textoInicial{
+    border: 1px dashed black;
+    border-radius: 8px;
+    border-width: 3.5px;
+    font-size: 10px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 270px;
+    margin: auto;
+}
+
+.textoInicial p{
+    margin: 1px;
+}
+
+img{
+    width: 280px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.container{
+    font-size: 15px;
+    background-color: antiquewhite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 280px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+button{
+    width: 200px;
+    margin: 2px;
+    border-radius: 6px;
+}
+
+#idRespuesta{
+    margin: 5px;
+    font-size: 11px;
+}
